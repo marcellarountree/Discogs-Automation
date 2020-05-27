@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="discogstest"
+    errors="2" failures="0" hostname="" id="" package="discogstest" skipped="0"
+    tests="1" time="0.009000" timestamp="">
+  
+    <testcase name="Test 1: Search multiple artists" classname="discogstest" time="0.009000" assertions="0">
+      <error message="discogs.end is not a function" type="error">TypeError: discogs.end is not a function
+    at Object.after (/Users/marcellarountree/devmountain/practiceautomation/discogs/tests/discogstest.js:10:17)
+    at Context.callAsync (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:395:20)
+    at Context.invokeMethod (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:346:21)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:75:24
+    at new Promise (&lt;anonymous&gt;)
+    at AfterAll.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:50:14)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:186:35)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: browser.page.discogsObjects is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config[0m
+[0;90m       at Object.beforeEach (/Users/marcellarountree/devmountain/practiceautomation/discogs/tests/discogstest.js:5:32)
+       at new Promise (&lt;anonymous&gt;)[0m
+[0;31m  TypeError: discogs.end is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.[0m
+[0;90m       at Object.after (/Users/marcellarountree/devmountain/practiceautomation/discogs/tests/discogstest.js:10:17)
+       at new Promise (&lt;anonymous&gt;)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

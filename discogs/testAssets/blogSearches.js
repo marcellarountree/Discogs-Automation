@@ -1,0 +1,1 @@
+module.exports = ['A Perfect Circle', 'Diana Ross', 'Jimmy Cobb', 'Captain Fantastic']

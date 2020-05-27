@@ -1,0 +1,1 @@
+module.exports = ['Devendra Banhart', 'Santigold', 'Erik Satie', 'Velvet Negroni']
